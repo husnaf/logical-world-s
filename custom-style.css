@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+body {
+  background-color: white;
+  color: black;
+  text-align: left;
+  
+}
+
+h1, h2 {
+  /*font-family: 'Merriweather', serif;
+  color: #990707;*/
+  text-align: center;
+	
+}
+
+.poem {
+  text-align:center;
+}
