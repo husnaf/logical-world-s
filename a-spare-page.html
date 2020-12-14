@@ -2,15 +2,6 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<link rel="shortcut icon" href="https:husnaf.github.io/logical-world-s/favicon.ico">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="manifest" href="site.webmanifest">
-<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#ffc40d">
-<meta name="theme-color" content="#ffffff">
 <title>A Spare Page</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
@@ -169,7 +160,7 @@ mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
 
 
 html {
-	font-size: 11.5pt;
+	font-size: 12pt;
 }
 
 html, body {
@@ -191,12 +182,37 @@ body {
 	padding-top: 0px;
 }
 
+
 @media only screen and (min-width: 1400px) {
 	#write {
 		max-width: 1100px;
 	}
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+.mirror {
+    display: inline-block; 
+
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+p.pos_left {
+	position: fixed;
+	left:0px
+}
 /* Typography
 -------------------------------------------------------- */
 
@@ -466,6 +482,6 @@ table tbody+tbody {
 </style>
 </head>
 <body class='typora-export os-windows'>
-<div id='write'  class=''><h1><a name="this-is-a-spare-page" class="md-header-anchor"></a><span>This is a Spare Page</span></h1><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p><img src="assets\Dziga Vertov.jpg" referrerpolicy="no-referrer" alt="Dziga Vertov"></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p><a href='index.html'><span>Home</span></a><span> </span><span>		</span><a href='references.html'><span>References</span></a><span> </span><span>		</span><a href='about.html'><span>About</span></a><span>		</span><a href='what-is-logic.html'><span>What is logic?</span></a></p></div>
+<div id='write'  class=''><h1><a name="what-follows-is-a-spare-page" class="md-header-anchor"></a><span>What Follows is a Spare Page</span></h1><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p><img src="assets\Dziga Vertov.jpg" referrerpolicy="no-referrer" alt="Dziga Vertov"></p><p>&nbsp;</p><p>&nbsp;</p><p><span>Your eyes that have followed me,</span></p><p><span>gaze pried and dissecting. </span></p><p><span>I repay your favor,</span></p><p><span>the same discomfort.</span></p><p><span>Our pact was </span><span style="color:#E50606;"><span>human violence.</span></span></p><p>&nbsp;</p><p>&nbsp;</p><p><a href='index.html'><span>Home</span></a><span> </span><span>		</span><a href='references.html'><span>References</span></a><span> </span><span>		</span><a href='about.html'><span>About</span></a><span>		</span><a href='what-is-logic.html'><span>What is logic?</span></a></p></div>
 </body>
 </html>

@@ -2,15 +2,6 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<link rel="shortcut icon" href="https:husnaf.github.io/logical-world-s/favicon.ico">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="manifest" href="site.webmanifest">
-<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#ffc40d">
-<meta name="theme-color" content="#ffffff">
 <title>About</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
@@ -169,7 +160,7 @@ mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
 
 
 html {
-	font-size: 11.5pt;
+	font-size: 12pt;
 }
 
 html, body {
@@ -191,12 +182,37 @@ body {
 	padding-top: 0px;
 }
 
+
 @media only screen and (min-width: 1400px) {
 	#write {
 		max-width: 1100px;
 	}
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+.mirror {
+    display: inline-block; 
+
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+p.pos_left {
+	position: fixed;
+	left:0px
+}
 /* Typography
 -------------------------------------------------------- */
 
@@ -466,6 +482,6 @@ table tbody+tbody {
 </style>
 </head>
 <body class='typora-export os-windows'>
-<div id='write'  class=''><h1><a name="about" class="md-header-anchor"></a><span>About</span></h1><p>&nbsp;</p><p><span>If I have to explain myself, then I have ultimately lost. It</span>&rsquo;<span>s only in silence that I can keep my understanding and your understanding of these pixelated pages intact.</span></p><p><span>So why do I write? I don</span>&rsquo;<span>t know. I don</span>&rsquo;<span>t know.</span></p><p><span>Because I hide, perhaps you are desperate to find: Fine then. You may find an old project abstract </span><span style="font-size:60%;"><a href="abstract.html"><span>here</span></a></span><span>. </span><span style="font-size:300%"><span>But the author wishes you wouldn</span>&rsquo;<span>t read it.</span></span></p><p><strong><span>Your curiosity will kill the thing she has made.</span></strong><span> Or do you fail to understand her words from </span><a href='index.html'><span>before</span></a><span>?</span></p><p>&nbsp;</p><div style="background-color:#E9F5F8; text-align:center;">[I am something...]<br>.<br>.<br>.<br>.<br>.<br><!-- image here -->[...that will be filled]</div><p>&nbsp;</p><p><span>And the pedestrian technical details: This website was made using </span><a href='https://typora.io/'><span>Typora</span></a><span>, </span><a href='https://pages.github.com/'><span>GitHub Pages</span></a><span>, and </span><a href='https://theivyfoundry.com/font/ivyjournal/'><span>Ivy Journal</span></a><span>. That along with some HTML in the .md files, and a custom theme based on Typora</span>&rsquo;<span>s </span><em><span>Whitey</span></em><span> theme.</span></p><p>&nbsp;</p><p><a href='index.html'><span>Home</span></a><span> </span><span>		</span><a href='references.html'><span>References</span></a><span> </span><span>		</span><a href='what-is-logic.html'><span>What is logic?</span></a><span>		</span><a href='a-spare-page.html'><span>A Spare Page</span></a></p></div>
+<div id='write'  class=''><h1><a name="about" class="md-header-anchor"></a><span>About</span></h1><p>&nbsp;</p><p><span>If I must explain myself, then I have ultimately lost. It</span>&rsquo;<span>s only in silence that I may keep my understanding of these pixelated pages intact. Though not merely mine: </span><strong><span>mine—yours</span></strong><span>.</span></p><p><span>So why do I write? I don&#39;t know. How could I and, more importantly, who could?</span></p><p><span>Because I hide, perhaps you are desperate to find: Fine then. You may find an old project abstract </span><span style="font-size:60%;"><a href="abstract.html"><span>here</span></a></span><span>. </span><span style="font-size:300%"><span>But the author wishes you wouldn</span>&rsquo;<span>t read it.</span></span></p><p><strong><span>Your curiosity will kill the thing she has made.</span></strong><span> Or are you unheeding of her </span><a href='index.html'><span>words</span></a><span>?</span></p><p>&nbsp;</p><p><img src="assets\small-black-dot.png" alt="dot"></p><p><img src="assets\small-black-dot.png" alt="dot"></p><p><img src="assets\small-black-dot.png" alt="dot"></p><p>&nbsp;</p><p><img src="assets\hf-author.jpeg" alt="Husna Farooqui"></p><center><small>The author <del>creates as she destroys</del>.</small></center><p>&nbsp;</p><p><img src="assets\small-black-dot.png" alt="dot"></p><p><img src="assets\small-black-dot.png" alt="dot"></p><p><img src="assets\small-black-dot.png" alt="dot"></p><p>&nbsp;</p><p><span>The pedestrian technical details: This website was made using </span><a href='https://typora.io/'><span>Typora</span></a><span>, </span><a href='https://pages.github.com/'><span>GitHub Pages</span></a><span>, and </span><a href='https://theivyfoundry.com/font/ivyjournal/'><span>Ivy Journal</span></a><span>. That along with some HTML in the .md files, and a custom theme based on Typora</span>&rsquo;<span>s </span><em><span>Whitey</span></em><span>.</span></p><p>&nbsp;</p><p><a href='index.html'><span>Home</span></a><span> </span><span>		</span><a href='references.html'><span>References</span></a><span> </span><span>		</span><a href='what-is-logic.html'><span>What is logic?</span></a><span>		</span><a href='a-spare-page.html'><span>A Spare Page</span></a></p></div>
 </body>
 </html>
